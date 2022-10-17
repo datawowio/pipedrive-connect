@@ -13,5 +13,8 @@ RSpec.describe Pipedrive::Person, type: :resource do
     it "responds to deals" do
       expect(subject).to respond_to(:deals)
     end
+    it "responds to leads" do
+      expect(subject).to respond_to(:leads)
+    end
   end
 end
